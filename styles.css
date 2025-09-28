@@ -26,8 +26,8 @@ body {
   width: 70px;
   height: 70px;
   border-radius: 50%;
-  border: 2px solid rgb(189, 107, 20);
-  background: rgba(189, 107, 20, 0.3);
+  border: 2px solid rgb(16, 108, 214);
+  background: rgba(16, 108, 214, 0.3);
   transform: translate(-50%, -50%);
   pointer-events: none;
   opacity: 0;
