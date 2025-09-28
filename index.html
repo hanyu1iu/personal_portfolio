@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Resume</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="resume">
+      <header class="resume__header">
+        <div class="contact-row">
+          <span class="contact-item">+1 646-290-1094</span>
+          <span class="contact-item contact-item--center">hanyuliu041@gmail.com</span>
+          <span class="contact-item contact-item--right"><a href="https://www.linkedin.com/in/hanyuliuyuki/" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/in/hanyuliuyuki/</a></span>
+        </div>
+        <div class="identity">
+          <div class="identity__text">
+            <!-- <p class="identity__subtitle">Two years bridging data engineering and analytics</p> -->
+            <h1 class="identity__name">Yuki Liu</h1>
+            <p class="identity__title">Data Analytics Engineer</p>
+          </div>
+          <div class="identity__photo">
+            <img class="identity__photo-img" src="assets/photo.png" alt="Portrait" />
+          </div>
+        </div>
+      </header>
+
+      <section class="resume-section resume-section--experience">
+        <h2 class="section-title">Experience</h2>
+        <div class="experience-grid">
+          <article class="experience-item">
+            <header class="experience-item__meta">
+              <span class="experience-item__dates">2024 06 –</span>
+              <span class="experience-item__location"></span>
+            </header>
+            <div class="experience-item__heading">
+              <h3 class="experience-item__role">Data Analytics Engineer</h3>
+              <p class="experience-item__company">Dailymail.com</p>
+            </div>
+            <p class="experience-item__summary">
+              Data engineering focus, building resilient analytics pipelines and real-time insights for global E-commere campaigns and programmatic ads.
+            </p>
+          </article>
+
+          <article class="experience-item">
+            <header class="experience-item__meta">
+              <span class="experience-item__dates">2023 10 – 2024 01</span>
+              <span class="experience-item__location"></span>
+            </header>
+            <div class="experience-item__heading">
+              <h3 class="experience-item__role">Data Scientist Intern</h3>
+              <p class="experience-item__company">TomTom</p>
+            </div>
+            <p class="experience-item__summary">
+              Fast-tracked map intelligence delivery with LLM-powered enrichment and automation at scale.
+            </p>
+          </article>
+
+          <article class="experience-item">
+            <header class="experience-item__meta">
+              <span class="experience-item__dates">2023 08 – 2023 10</span>
+              <span class="experience-item__location"></span>
+            </header>
+            <div class="experience-item__heading">
+              <h3 class="experience-item__role">Data Scientist Intern</h3>
+              <p class="experience-item__company">Welspot</p>
+            </div>
+            <p class="experience-item__summary">
+              Modernized lending analytics with dependable ELT, intelligent tools, and stakeholder-friendly reporting.
+            </p>
+          </article>
+
+          <article class="experience-item">
+            <header class="experience-item__meta">
+              <span class="experience-item__dates">2023 04 – 2023 06</span>
+              <span class="experience-item__location"></span>
+            </header>
+            <div class="experience-item__heading">
+              <h3 class="experience-item__role">Data Science Advisor</h3>
+              <p class="experience-item__company">IEEE</p>
+            </div>
+            <p class="experience-item__summary">
+              Elevated research discovery by tightening NLP pipelines and coordinating cross-functional delivery.
+            </p>
+          </article>
+        </div>
+      </section>
+       <section class="resume-section resume-section--bottom">
+        <div class="education">
+          <h2 class="section-title">Education</h2>
+          <div class="education__entry">
+            <div class="education__meta">
+              <span class="education__label">2022 - 2023</span>
+              <span class="education__location"></span>
+            </div>
+            <div class="education__details">
+              <span class="education__value">MS in Data Science</span>
+              <span class="education__institution">Cornell University</span>
+            </div>
+          </div>
+
+          <div class="education__entry">
+            <div class="education__meta">
+              <span class="education__label">2018 - 2022</span>
+              <span class="education__location"></span>
+            </div>
+            <div class="education__details">
+              <span class="education__value">BSc in Mathematics</span>
+              <span class="education__institution">University of Nottingham</span>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="skills">
+          <h2 class="section-title">Skills</h2>
+          <div class="skills__columns">
+            <div class="skills__column">
+              <ul class="skills__list">
+                <li><b>Languages</b> Python, SQL, R, MATLAB, SAS</li>
+                <li><b>Tools</b> Tableau, Git, Docker, REST API, Snowflake, Airflow, dbt, PySpark</li>
+              </ul>
+            </div>
+            <div class="skills__column">
+              <ul class="skills__list">
+                <li><b>Cloud Platform</b> AWS(S3, EC2, Redshift), Azure, GCP</li>
+                <li><b>Packages</b> Pandas, Numpy, PyTorch, TensorFlow, NLTK, SpaCy, Huggingface, SparkNLP</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>     
+      <section class="resume-section resume-section--projects">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-card__content">
+              <h3 class="project-card__title">ML - Treatment Outcome Prediction</h3>
+              <p class="project-card__summary">Identify factors that contribute to the failure of treating substance abuse using Machine Learning Models.</p>
+            </div>
+            <a class="project-card__image-link" href="https://github.com/hanyu1iu/substance_abuse_treatment_analysis" aria-label="View Treatment Outcome Prediction">
+              <img class="project-card__image" src="assets/Group 16.png" alt="Treatment Outcome Prediction preview" />
+            </a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__content">
+              <h3 class="project-card__title">ETL - Airflow &amp; AWS S3 &amp; Redshift</h3>
+              <p class="project-card__summary">Use Airflow to automate data warehouse ETL pipelines, from data model design to cloud platform integration.</p>
+            </div>
+            <a class="project-card__image-link" href="https://github.com/hanyu1iu/ETL_AWS_Airflow" aria-label="View ETL - Airflow and AWS project">
+              <img class="project-card__image" src="assets/airflow.png" alt="ETL Airflow project preview" />
+            </a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__content">
+              <h3 class="project-card__title">Dashboard - E-commerce Sales Monitoring</h3>
+              <p class="project-card__summary">Tableau Dashboard reporting design based on dummy E-commerce data.</p>
+            </div>
+            <a class="project-card__image-link" href="https://public.tableau.com/app/profile/hanyu.liu8152/viz/E-commerceDashboard_16690699945480/Overview" aria-label="E-commerce Sales Monitoring Dashboard">
+              <img class="project-card__image" src="assets/dashboard.png" alt="Project Gamma preview" />
+            </a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__content">
+              <h3 class="project-card__title">NLP - Sentiment Analysis</h3>
+              <p class="project-card__summary">Identify sentiment within news headlines, with a particular focus on gender biases and editorial sensationalism.</p>
+            </div>
+            <a class="project-card__image-link" href="https://github.com/hanyu1iu/womens_headlines_bias" aria-label="NLP - Sentiment Analysi">
+              <img class="project-card__image" src="assets/headlines.png" alt="NLP - Sentiment Analysis" />
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <section class="resume-section resume-section--About">
+        <h2 class="section-title">About Me</h2>
+          <span class="about-item__summary">
+Hi, I’m Yuki! I have two years of experience in data science and engineering. I came to the U.S. to continue my studies and have been passionate about using data to tell clear stories ever since.  
+<br><br>
+Outside of work, you will often find me making flower arranging, reading and sometimes boxing. I also care deeply about technology for social good, and I volunteer as a tech consultant to support vulnerable communities.
+</span>
+
+      
+      </section>
+
+
+    </main>
+    <div class="cursor" aria-hidden="true"></div>
+    <script>
+      const identityPhoto = document.querySelector('.identity__photo');
+      if (identityPhoto) {
+        const clip = identityPhoto.querySelector('.identity__photo-gif');
+        if (clip) {
+          clip.pause();
+          identityPhoto.addEventListener('mouseenter', () => {
+            try {
+              clip.currentTime = 0;
+              const playPromise = clip.play();
+              if (playPromise !== undefined) {
+                playPromise.catch(() => {});
+              }
+            } catch (err) {
+              console.warn('Animation play error', err);
+            }
+          });
+          identityPhoto.addEventListener('mouseleave', () => {
+            try {
+              clip.pause();
+            } catch (err) {
+              console.warn('Animation pause error', err);
+            }
+          });
+        }
+      }
+
+      const customCursor = document.querySelector('.cursor');
+      const useCustomCursor = customCursor && !window.matchMedia('(pointer: coarse)').matches;
+      if (useCustomCursor) {
+        const showCursor = (event) => {
+          customCursor.style.left = `${event.clientX}px`;
+          customCursor.style.top = `${event.clientY}px`;
+          customCursor.classList.add('cursor--visible');
+        };
+
+        document.addEventListener('pointermove', showCursor);
+
+        document.addEventListener('pointerdown', () => {
+          customCursor.classList.add('cursor--pressed');
+        });
+
+        document.addEventListener('pointerup', () => {
+          customCursor.classList.remove('cursor--pressed');
+        });
+
+        document.addEventListener('pointerout', (event) => {
+          if (!event.relatedTarget) {
+            customCursor.classList.remove('cursor--visible');
+            customCursor.classList.remove('cursor--pressed');
+          }
+        });
+
+        window.addEventListener('blur', () => {
+          customCursor.classList.remove('cursor--visible');
+          customCursor.classList.remove('cursor--pressed');
+        });
+      }
+    </script>
+  </body>
+</html>
